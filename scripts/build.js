@@ -1,5 +1,5 @@
 // scripts/build.js
-import { zip } from 'bestzip';
+import { Zip } from 'zip-lib';
 import { access, mkdir } from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -37,14 +37,10 @@ async function buildThemeZip() {
     await mkdir(buildDir, { recursive: true });
 
     // Crea el zip desde la raíz del proyecto
-    await zip({
-      source: [
-        reaperThemeFile,
-        reaperResourcesDir
-      ],
-      destination: outputZip,
-      cwd: projectRoot
-    });
+    const zip = new Zip();
+    zip.addFile(path.join(projectRoot, reaperThemeFile), reaperThemeFile);
+    zip.addFolder(path.join(projectRoot, reaperResourcesDir), reaperResourcesDir);
+    await zip.archive(outputZip);
 
     console.log('✅ Theme packaged successfully at:', outputZip);
   } catch (err) {

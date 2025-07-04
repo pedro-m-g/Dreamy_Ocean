@@ -5,8 +5,7 @@
   "description": "Dreamy Ocean theme for REAPER",
   "main": "index.js",
   "scripts": {
-    "build": "node scripts/build.js",
-    "healthcheck": "node scripts/healthcheck.js"
+    "build": "node scripts/build.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +25,6 @@
   },
   "homepage": "https://github.com/pedro-m-g/Dreamy_Ocean#readme",
   "dependencies": {
-    "bestzip": "^2.2.1"
+    "zip-lib": "^1.1.2"
   }
 }
