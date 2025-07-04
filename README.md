@@ -43,7 +43,7 @@ Espero que logre compartir al menos una parte de esa experiencia, y que te inspi
 El proyecto utiliza Node.js 22 o más reciente, así que necesitarás el siguiente comando para instalar dependencias:
 
 ```sh
-npm ci
+npm install
 ```
 
 ## Construir tema para REAPER

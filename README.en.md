@@ -41,7 +41,7 @@ I hope it shares a fragment of that dream with you—and maybe even inspires you
 This project uses Node.js 22 or newer for development scripts, so you'll need to install dependencies using this command:
 
 ```sh
-npm ci
+npm install
 ```
 
 ## Build REAPER Theme
