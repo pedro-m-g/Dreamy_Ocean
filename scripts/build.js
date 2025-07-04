@@ -1,9 +1,8 @@
 // scripts/build.js
 import { zip } from 'bestzip';
-import { mkdir } from 'fs/promises';
+import { access, mkdir } from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import fs from 'fs/promises';
 
 // 🧭 Utilidades para obtener la ruta del proyecto
 const __filename = fileURLToPath(import.meta.url);
@@ -14,7 +13,7 @@ const buildDir = path.join(projectRoot, 'build');
 const outputZip = path.join(buildDir, 'Dreamy_Ocean.ReaperThemeZip');
 
 function checkPathExists(filePath) {
-  return fs.access(filePath)
+  return access(filePath)
     .then(() => true)
     .catch(() => false);
 }
