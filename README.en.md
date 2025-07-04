@@ -35,3 +35,21 @@ I hope it shares a fragment of that dream with you—and maybe even inspires you
    `Options → Themes → Dreamy_Ocean`
 
 ---
+
+## Development Setup
+
+This project uses NodeJS for development scripts, so you'll need to install dependencies using this command:
+
+```sh
+npm install
+```
+
+## Build REAPER Theme
+
+Also, in order to build a proper REAPER theme, you'll need to run this command:
+
+```sh
+npm run build
+```
+
+Generated file will be available at `build/` directory, and you'll be able to open it in REAPER. It will show a preview for the theme.
