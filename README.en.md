@@ -25,7 +25,7 @@ for me.
 # Installation
 
 - Download this project as a ZIP file.
-- Change file extension, from `.zip` to .`ReaperThemeZip`
+- Change file extension, from `.zip` to `.ReaperThemeZip`
 - Place it inside REAPER themes path:
   - For Windows: `%APPDATA%\REAPER\ColorThemes`
   - For macOS: `~/Library/Application Support/REAPER/ColorThemes`
