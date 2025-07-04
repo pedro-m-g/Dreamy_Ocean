@@ -18,7 +18,7 @@ Espero que logre compartir al menos una parte de esa experiencia, y que te inspi
 
 ## 📁 Estructura del proyecto
 
-- `Dreamy_Ocean_resources/` - Carpeta con los recursos gráficos del tema.
+- `Dreamy_Ocean_resources` - Carpeta con los recursos gráficos del tema.
 - `Dreamy_Ocean.ReaperTheme` - Archivo de configuración del tema.
 - `preview.png` - Imagen de vista previa.
 - `theme.json` - Metadatos del proyecto.
@@ -28,14 +28,14 @@ Espero que logre compartir al menos una parte de esa experiencia, y que te inspi
 ## 🛠 Instalación
 
 1. Descarga este repositorio como archivo `.zip`.
-2. **No lo descomprimas.** Cambia la extensión del archivo de `.zip` a `.ReaperThemeZip`.
+2. **No lo descomprimas.** Cámbiale la extensión de `.zip` a `.ReaperThemeZip`.
 3. Mueve el archivo a la carpeta de temas de REAPER:
 
-```text
-Windows: %APPDATA%\REAPER\ColorThemes
-macOS:   ~/Library/Application Support/REAPER/ColorThemes
-Linux:   ~/.config/REAPER/ColorThemes
-```
+   ```text
+   Windows: %APPDATA%\REAPER\ColorThemes
+   macOS:   ~/Library/Application Support/REAPER/ColorThemes
+   Linux:   ~/.config/REAPER/ColorThemes
+   ```
 
 4. Abre REAPER y selecciona:
    `Opciones → Temas → Dreamy_Ocean`
