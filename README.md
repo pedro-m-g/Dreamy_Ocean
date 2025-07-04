@@ -40,7 +40,7 @@ Espero que logre compartir al menos una parte de esa experiencia, y que te inspi
 
 ## Preparación para desarrollo
 
-El proyecto utiliza NodeJS v22.17.0, así que necesitarás el siguiente comando para instalar dependencias:
+El proyecto utiliza Node.js v22.17.0, así que necesitarás el siguiente comando para instalar dependencias:
 
 ```sh
 npm ci
@@ -48,10 +48,10 @@ npm ci
 
 ## Construir tema para REAPER
 
-Ejecuta el siguiente comando para generar un archivo que REAPER pueda reconocer como un nuevo tema:
+Ejecuta el siguiente comando para generar un archivo que REAPER reconozca como un nuevo tema:
 
 ```sh
 npm run build
 ```
 
-El archivo generado se encontrará en la carpeta `build/`, y puede abrirse directamente con REAPER, lo que mostrará una vista previa del tema.
+El archivo generado se guardará en la carpeta `build/`; puedes abrirlo directamente con REAPER para ver una vista previa del tema.

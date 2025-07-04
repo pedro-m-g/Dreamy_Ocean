@@ -38,7 +38,7 @@ I hope it shares a fragment of that dream with you—and maybe even inspires you
 
 ## Development Setup
 
-This project uses NodeJS v22.17.0 for development scripts, so you'll need to install dependencies using this command:
+This project uses Node.js v22.17.0 for development scripts, so you'll need to install dependencies using this command:
 
 ```sh
 npm install
@@ -46,10 +46,10 @@ npm install
 
 ## Build REAPER Theme
 
-Also, in order to build a proper REAPER theme, you'll need to run this command:
+To build the REAPER theme, run:
 
 ```sh
 npm run build
 ```
 
-Generated file will be available at `build/` directory, and you'll be able to open it in REAPER. It will show a preview for the theme.
+The generated file will be placed in the `build/` directory. Open it in REAPER to preview the theme.

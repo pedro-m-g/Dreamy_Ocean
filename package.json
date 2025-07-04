@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/pedro-m-g/Dreamy_Ocean#readme",
   "dependencies": {
-    "zip-lib": "^1.0.4"
+    "zip-lib": "^1.1.2"
   }
 }
