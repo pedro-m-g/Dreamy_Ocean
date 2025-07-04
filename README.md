@@ -1,3 +1,5 @@
+[English version](README.en.md)
+
 # Dreamy Ocean
 
 Dreamy Ocean es un tema para REAPER, inspirado en un sueño en el que
@@ -12,18 +14,18 @@ sueño, y que te haga soñar con tus propias creaciones también.
 
 # Estructura
 
-- Dreamy_Ocean_resources - Carpeta con recursos gráficos del tema.
-- Dreamy_Ocean.ReaperTheme - Configuración del tema.
-- preview.png - Vista previa del tema.
-- theme.json - Metadatos del tema.
+- `Dreamy_Ocean_resources` - Carpeta con recursos gráficos del tema.
+- `Dreamy_Ocean.ReaperTheme` - Configuración del tema.
+- `preview.png` - Vista previa del tema.
+- `theme.json` - Metadatos del tema.
 
 # Instalación
 
 - Descarga el proyecto como archivo comprimido (zip).
-- Cambia la extensión del archivo, de .zip a .ReaperThemeZip
+- Cambia la extensión del archivo, de `.zip` a `.ReaperThemeZip`
 - Colócalo en la ubicación de temas de REAPER
-  - Para Windows: %APPDATA%\REAPER\ColorThemes
-  - Para macOS: ~/Library/Application Support/REAPER/ColorThemes
-  - Para Linux: ~/.config/REAPER/ColorThemes
+  - Para Windows: `%APPDATA%\REAPER\ColorThemes`
+  - Para macOS: `~/Library/Application Support/REAPER/ColorThemes`
+  - Para Linux: `~/.config/REAPER/ColorThemes`
 - Abre REAPER y selecciona la opción `Options > Themes > Dreamy_Ocean`
   (`Opciones > Temas > Dreamy_Ocean` si utilizas la interfaz en español).
