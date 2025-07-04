@@ -1,21 +1,33 @@
-# Dreamy Ocean
+# 🌌 Dreamy Ocean
 
-Dreamy Ocean is a REAPER theme, inspired by a dream I had, where I explored different sounds in the DAW, but instead of looking as usual, with the
-default theme, it looked as if it were alive in some way. The background resembled the universe itself, tracks looked crystalline, and the sound-wave peaks trailed like comets. Dreamy Ocean is my attempt to recreate that airy yet immersive vision. I hope the theme can share a fragment of that dream with you and inspire you to create and share in turn.
+**Dreamy Ocean** is a REAPER theme inspired by a dream I had—one where I was exploring sounds inside the DAW, but everything looked... alive.
+The background resembled the universe itself, tracks shimmered like crystal, and waveform peaks trailed across the screen like comets.
 
-# File Structure
+This theme is my attempt to recreate that airy, immersive vision.
+I hope it shares a fragment of that dream with you—and maybe even inspires you to create and share your own.
 
-- `Dreamy_Ocean_resources/` - Graphic resources folder for theme UI.
-- `Dreamy_Ocean.ReaperTheme` - Theme configuration for REAPER.
-- `preview.png` - Preview image.
-- `theme.json` - Project metadata.
+---
 
-# Installation
+## 📁 File Structure
 
-- Download this project as a ZIP file.
-- Change the file extension from `.zip` to `.ReaperThemeZip` (Don't unzip it, just rename the downloaded zip file).
-- Place it inside the REAPER themes path:
-  - For Windows: `%APPDATA%\REAPER\ColorThemes`
-  - For macOS: `~/Library/Application Support/REAPER/ColorThemes`
-  - For Linux: `~/.config/REAPER/ColorThemes`
-- Open REAPER and choose `Options > Themes > Dreamy_Ocean` from the top menu bar.
+- `Dreamy_Ocean_resources/` – Graphic assets for the theme UI.
+- `Dreamy_Ocean.ReaperTheme` – REAPER theme configuration file.
+- `preview.png` – Visual preview of the theme.
+- `theme.json` – Metadata for the project.
+
+---
+
+## 🛠 Installation
+
+1. Download this repository as a `.zip` file.
+2. **Do not unzip it.** Instead, rename the file extension from `.zip` to `.ReaperThemeZip`.
+3. Move the file to your REAPER themes folder:
+
+   - **Windows:** `%APPDATA%\REAPER\ColorThemes`
+   - **macOS:** `~/Library/Application Support/REAPER/ColorThemes`
+   - **Linux:** `~/.config/REAPER/ColorThemes`
+
+4. Open REAPER and go to:
+   `Options → Themes → Dreamy_Ocean`
+
+---
