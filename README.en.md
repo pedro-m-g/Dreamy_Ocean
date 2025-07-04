@@ -38,7 +38,7 @@ I hope it shares a fragment of that dream with you—and maybe even inspires you
 
 ## Development Setup
 
-This project uses Node.js v22.17.0 for development scripts, so you'll need to install dependencies using this command:
+This project uses Node.js 22 or newer for development scripts, so you'll need to install dependencies using this command:
 
 ```sh
 npm install
