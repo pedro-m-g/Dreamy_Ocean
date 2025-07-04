@@ -54,4 +54,4 @@ Ejecuta el siguiente comando para generar un archivo que REAPER reconozca como u
 npm run build
 ```
 
-El archivo generado se guardará en la carpeta `build/`; puedes abrirlo directamente con REAPER para ver una vista previa del tema.
+El archivo generado `Dreamy_Ocean.ReaperThemeZip` se guardará en la carpeta `build/`; puedes abrirlo directamente con REAPER para ver una vista previa del tema.

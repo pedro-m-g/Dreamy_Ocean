@@ -52,4 +52,4 @@ To build the REAPER theme, run:
 npm run build
 ```
 
-The generated file will be placed in the `build/` directory. Open it in REAPER to preview the theme.
+The generated file `Dreamy_Ocean.ReaperThemeZip` will be placed in the `build/` directory. Open it in REAPER to preview the theme.
