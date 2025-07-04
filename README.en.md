@@ -27,9 +27,11 @@ I hope it shares a fragment of that dream with you—and maybe even inspires you
 2. **Do not unzip it.** Instead, rename the file extension from `.zip` to `.ReaperThemeZip`.
 3. Move the file to your REAPER themes folder:
 
-   - **Windows:** `%APPDATA%\REAPER\ColorThemes`
-   - **macOS:** `~/Library/Application Support/REAPER/ColorThemes`
-   - **Linux:** `~/.config/REAPER/ColorThemes`
+```text
+Windows: %APPDATA%\REAPER\ColorThemes
+macOS:   ~/Library/Application Support/REAPER/ColorThemes
+Linux:   ~/.config/REAPER/ColorThemes
+```
 
 4. Open REAPER and go to:
    `Options → Themes → Dreamy_Ocean`
