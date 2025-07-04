@@ -1,5 +1,3 @@
-<!-- language: es -->
-
 [Versión en Español](README.md)
 
 # 🌌 Dreamy Ocean
@@ -14,7 +12,7 @@ I hope it shares a fragment of that dream with you—and maybe even inspires you
 
 ## 📁 File Structure
 
-- `Dreamy_Ocean_resources` - Graphic assets directory for the theme UI.
+- `Dreamy_Ocean_resources/` - Graphic assets directory for the theme UI.
 - `Dreamy_Ocean.ReaperTheme` - REAPER theme configuration file.
 - `preview.png` - Visual preview of the theme.
 - `theme.json` - Metadata for the project.

@@ -1,5 +1,3 @@
-<!-- language: es -->
-
 [English version](README.en.md)
 
 # 🌌 Dreamy Ocean
@@ -18,7 +16,7 @@ Espero que logre compartir al menos una parte de esa experiencia, y que te inspi
 
 ## 📁 Estructura del proyecto
 
-- `Dreamy_Ocean_resources` - Carpeta con los recursos gráficos del tema.
+- `Dreamy_Ocean_resources/` - Carpeta con los recursos gráficos del tema.
 - `Dreamy_Ocean.ReaperTheme` - Archivo de configuración del tema.
 - `preview.png` - Imagen de vista previa.
 - `theme.json` - Metadatos del proyecto.
