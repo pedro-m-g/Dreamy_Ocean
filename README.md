@@ -1,4 +1,4 @@
-[Versión en inglés](README.en.md)
+[English version](README.en.md)
 
 # 🌌 Dreamy Ocean
 
@@ -29,9 +29,9 @@ Espero que logre compartir al menos una parte de esa experiencia, y que te inspi
 2. **No lo descomprimas.** Cambia la extensión del archivo de `.zip` a `.ReaperThemeZip`.
 3. Mueve el archivo a la carpeta de temas de REAPER:
 
-   - **Windows:** `%APPDATA%\REAPER\ColorThemes`
-   - **macOS:** `~/Library/Application Support/REAPER/ColorThemes`
-   - **Linux:** `~/.config/REAPER/ColorThemes`
+  - **Windows:** `%APPDATA%\REAPER\ColorThemes`
+  - **macOS:** `~/Library/Application Support/REAPER/ColorThemes`
+  - **Linux:** `~/.config/REAPER/ColorThemes`
 
 4. Abre REAPER y selecciona:
    `Opciones → Temas → Dreamy_Ocean`
