@@ -1,10 +1,8 @@
-// scripts/build.js
 import { Zip } from 'zip-lib';
 import { access, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-// 🧭 Utilidades para obtener la ruta del proyecto
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..');
@@ -34,7 +32,6 @@ async function buildThemeZip() {
   const reaperResourcesDir = 'Dreamy_Ocean_resources';
 
   try {
-    // Verifica si los archivos existen
     const themeFilePath = path.join(projectRoot, reaperThemeFile);
     const resourcesDirPath = path.join(projectRoot, reaperResourcesDir);
     if (!await checkPathExists(themeFilePath)) {
@@ -44,10 +41,8 @@ async function buildThemeZip() {
       throw new Error(`Resources directory not found: ${reaperResourcesDir}`);
     }
 
-    // Asegura que la carpeta build/ exista
     await mkdir(buildDir, { recursive: true });
 
-    // Crea el zip desde la raíz del proyecto
     const zip = new Zip();
     zip.addFile(path.join(projectRoot, reaperThemeFile), reaperThemeFile);
     zip.addFolder(path.join(projectRoot, reaperResourcesDir), reaperResourcesDir);
