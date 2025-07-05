@@ -38,4 +38,20 @@ Espero que logre compartir al menos una parte de esa experiencia, y que te inspi
 4. Abre REAPER y selecciona:
    `Opciones → Temas → Dreamy_Ocean`
 
----
+## Preparación para desarrollo
+
+El proyecto utiliza Node.js 22 o más reciente, así que necesitarás el siguiente comando para instalar dependencias:
+
+```sh
+npm install
+```
+
+## Construir tema para REAPER
+
+Ejecuta el siguiente comando para generar un archivo que REAPER reconozca como un nuevo tema:
+
+```sh
+npm run build
+```
+
+El archivo generado `Dreamy_Ocean.ReaperThemeZip` se guardará en la carpeta `build/`; puedes abrirlo directamente con REAPER para ver una vista previa del tema.

@@ -35,3 +35,21 @@ I hope it shares a fragment of that dream with you—and maybe even inspires you
    `Options → Themes → Dreamy_Ocean`
 
 ---
+
+## Development Setup
+
+This project uses Node.js 22 or newer for development scripts, so you'll need to install dependencies using this command:
+
+```sh
+npm install
+```
+
+## Build REAPER Theme
+
+To build the REAPER theme, run:
+
+```sh
+npm run build
+```
+
+The generated file `Dreamy_Ocean.ReaperThemeZip` will be placed in the `build/` directory. Open it in REAPER to preview the theme.
