@@ -1,8 +1,8 @@
 // scripts/build.js
 import { Zip } from 'zip-lib';
-import { access, mkdir } from 'fs/promises';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import { access, mkdir } from 'node:fs/promises';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 // 🧭 Utilidades para obtener la ruta del proyecto
 const __filename = fileURLToPath(import.meta.url);
